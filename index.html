@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#inicio">Saltar al contenido</a>
     <header class="site-header">
       <a class="brand" href="#inicio">Club de lectura</a>
       <nav aria-label="Navegación principal">
@@ -28,17 +29,17 @@
         <h2 id="encuentros-title">Próximos encuentros</h2>
         <div class="cards">
           <article class="card">
-            <p class="date">12 de noviembre</p>
+            <time class="date" datetime="2026-11-12">12 de noviembre</time>
             <h3>Narrativas breves</h3>
             <p>Relatos para conversar.</p>
           </article>
           <article class="card">
-            <p class="date">26 de noviembre</p>
+            <time class="date" datetime="2026-11-26">26 de noviembre</time>
             <h3>Voces contemporáneas</h3>
             <p>Autores y perspectivas actuales.</p>
           </article>
           <article class="card">
-            <p class="date">10 de diciembre</p>
+            <time class="date" datetime="2026-12-10">10 de diciembre</time>
             <h3>Clásicos revisitados</h3>
             <p>Otras formas de leer lo conocido.</p>
           </article>
@@ -51,6 +52,8 @@
         </p>
       </section>
     </main>
-    <footer><p>Club de lectura · Proyecto didáctico</p></footer>
+    <footer class="site-footer" aria-label="Pie de página">
+      <p>Club de lectura · Proyecto didáctico</p>
+    </footer>
   </body>
 </html>
